@@ -7,7 +7,6 @@ body {
 
 .logo {
     font-family: "Raleway", sans-serif;
-    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -25,7 +24,6 @@ footer .logo {
 }
 
 .nav {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -72,7 +70,6 @@ header .nav:active {
 }
 
 .main-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -81,7 +78,6 @@ header .nav:active {
 }
 
 .button-order {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -124,7 +120,6 @@ li {
 }
 
 .second-title {
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -138,7 +133,6 @@ li {
 }
 
 .title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
