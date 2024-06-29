@@ -1,7 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
-    letter-spacing: 0.02;
-    color: #2e2f42;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .logo {
@@ -11,12 +12,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
 }
 
 .logo span {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 footer .logo {
@@ -27,7 +28,7 @@ footer .logo {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
 }
@@ -40,16 +41,24 @@ header .nav:active {
     text-decoration: underline;
 }
 
-.adress {
+.address {
+    font-style: normal;
+}
+
+.address-a {
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
     text-decoration: none;
 }
 
-.adress:hover {
+.address-a:hover {
     color: #404BBF;
+}
+
+.address-a:focus {
+    color: #404bbf;
 }
 
 /* main */
@@ -62,22 +71,22 @@ header .nav:active {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
-.order {
+.button-order {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
     background-color: #4d5ae5;
 }
 
-.order:hover {
+.button-order:hover {
     background-color: #404BBF;
 }
 
@@ -102,11 +111,15 @@ li {
     background-color: #f4f4fd;
 }
 
+.team {
+    background-color: #FFFFFF
+}
+
 .second-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -114,22 +127,37 @@ li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02;
-    color: #434455;
 }
 
 .title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .heroes {
     text-align: center;
 }
 
+.section-footer {
+    background: #2e2f42;
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .footer-text {
+    color: #f4f4fd;
+}
+
+footer .logo {
+    color: #4d5ae5;
+}
+
+footer .footer-span {
     color: #f4f4fd;
 }
