@@ -1,0 +1,135 @@
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02;
+    color: #2e2f42;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #4d5ae5;
+}
+
+footer .logo {
+    color: #f4f4fd;
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: #404BBF;
+}
+
+header .nav:active {
+    text-decoration: underline;
+}
+
+.adress {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.adress:hover {
+    color: #404BBF;
+}
+
+/* main */
+
+.sections {
+    background: #2e2f42;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02;
+    text-align: center;
+    color: #fff;
+}
+
+.order {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    color: #fff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+}
+
+.order:hover {
+    background-color: #404BBF;
+}
+
+li {
+    list-style-type: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+}
+
+.hero {
+    background-color: #f4f4fd;
+}
+
+.second-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: #2e2f42;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #434455;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.heroes {
+    text-align: center;
+}
+
+.footer-text {
+    color: #f4f4fd;
+}
